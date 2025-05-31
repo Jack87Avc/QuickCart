@@ -23,13 +23,12 @@ import star_dull_icon from "./star_dull_icon.svg";
 import header_headphone_image from "./header_headphone_image.png";
 import header_playstation_image from "./header_playstation_image.png";
 import header_macbook_image from "./header_macbook_image.png";
-import macbook_image from "./macbook_image.png";
-import bose_headphone_image from "./bose_headphone_image.png";
+import heeavy_duty_table_saw from "./heeavy_duty_table_saw.png";
 import apple_earphone_image from "./apple_earphone_image.png";
 import samsung_s23phone_image from "./samsung_s23phone_image.png";
 import venu_watch_image from "./venu_watch_image.png";
 import upload_area from "./upload_area.png";
-import cannon_camera_image from "./cannon_camera_image.png";
+import cannon_camera_image from "./cannon_camera_image.jpg";//
 import sony_airbuds_image from "./sony_airbuds_image.png";
 import asus_laptop_image from "./asus_laptop_image.png";
 import projector_image from "./projector_image.png";
@@ -39,7 +38,7 @@ import girl_with_earphone_image from "./girl_with_earphone_image.png";
 import md_controller_image from "./md_controller_image.png";
 import sm_controller_image from "./sm_controller_image.png";
 import jbl_soundbox_image from "./jbl_soundbox_image.png";
-import boy_with_laptop_image from "./boy_with_laptop_image.png";
+import boy_with_laptop_image from "./boy_with_laptop_image.jpg";
 import checkmark from "./checkmark.png";
 import product_details_page_apple_earphone_image1 from "./product_details_page_apple_earphone_image1.png";
 import product_details_page_apple_earphone_image2 from "./product_details_page_apple_earphone_image2.png";
@@ -73,8 +72,8 @@ export const assets = {
   header_headphone_image,
   header_playstation_image,
   header_macbook_image,
-  macbook_image,
-  bose_headphone_image,
+  heeavy_duty_table_saw,
+  
   apple_earphone_image,
   samsung_s23phone_image,
   venu_watch_image,
@@ -132,148 +131,218 @@ export const HomeIcon = () => (
 
 export const productsDummyData = [
   {
-    "_id": "67a1f4e43f34a77b6dde9144",
+    "_id": "1",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Apple AirPods Pro 2nd gen",
-    "description": "Apple AirPods Pro (2nd Gen) with MagSafe Case (USB-C) provide excellent sound, active noise cancellation, and a comfortable fit. The USB-C case ensures quick charging, and they pair seamlessly with Apple devices for an effortless audio experience.",
+    "name": "Parkside Performance Cordless Impact Drill 20V",
+    "description": "Complete power drill set with multiple attachments, perfect for industrial and construction applications. Features high-torque motor, ergonomic design, and long-lasting battery life.",
     "price": 499.99,
     "offerPrice": 399.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k4dafzhwhgcn5tnoylrw.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/j212frakb8hdrhvhajhg.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/imwuugqxsajuwqpkegb5.webp",
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/k1oqaslw5tb3ebw01vvj.webp"
+      "/assets/Parkside_Performance_impact_drill.png",
+      
     ],
-    "category": "Earphone",
+    "category": "Power Tools",
     "date": 1738667236865,
     "__v": 0
   },
   {
-    "_id": "67a1f52e3f34a77b6dde914a",
+    "_id": "2",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Bose QuietComfort 45",
-    "description": "The Bose QuietComfort 45 headphones are engineered for exceptional sound quality and unparalleled noise cancellation. With a 24-hour battery life and comfortable, lightweight design, these headphones deliver premium audio for any environment. Whether on a flight, in the office, or at home, the Bose QC45 blocks out distractions, offering an immersive listening experience.",
+    "name": "Parkside Performance Cordless Impact Drill 20V ",
+    "description": "Heavy-duty safety helmet with impact resistance and adjustable headband. Features ventilation system and meets all industrial safety standards.",
     "price": 429.99,
     "offerPrice": 329.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/m16coelz8ivkk9f0nwrz.webp"
+      "/assets/Parkside_Performance_impact_drill_2.png"
     ],
-    "category": "Headphone",
+    "category": "Safety Equipment",
     "date": 1738667310300,
     "__v": 0
   },
   {
-    "_id": "67a1f5663f34a77b6dde914c",
+    "_id": "3",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Galaxy S23",
-    "description": "The Samsung Galaxy S23 offers an all-encompassing mobile experience with its advanced AMOLED display, offering vibrant visuals and smooth interactions. Equipped with top-of-the-line fitness tracking features and cutting-edge technology, this phone delivers outstanding performance. With powerful hardware, a sleek design, and long battery life, the S23 is perfect for those who demand the best in mobile innovation.",
-    "price": 899.99,
-    "offerPrice": 799.99,
-    "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/xjd4eprpwqs7odbera1w.webp"
-    ],
-    "category": "Smartphone",
-    "date": 1738667366224,
-    "__v": 0
-  },
-  {
-    "_id": "67a1f5993f34a77b6dde914e",
-    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Garmin Venu 2",
-    "description": "The Garmin Venu 2 smartwatch blends advanced fitness tracking with sophisticated design, offering a wealth of features such as heart rate monitoring, GPS, and sleep tracking. Built with a 24-hour battery life, this watch is ideal for fitness enthusiasts and anyone looking to enhance their daily lifestyle. With a stunning AMOLED display and customizable watch faces, the Venu 2 combines technology with style seamlessly.",
+    "name": "Parkside Performance Cordless Hammer drill 20V",
+    "description": "Steel-toed work boots with slip-resistant sole and waterproof protection. Designed for maximum comfort and safety in industrial environments.",
     "price": 399.99,
     "offerPrice": 349.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/hdfi4u3fmprazpnrnaga.webp"
+      "/assets/Parkside Hammer drill.png"
     ],
-    "category": "Earphone",
+    "category": "Safety Equipment",
     "date": 1738667417511,
     "__v": 0
   },
   {
-    "_id": "67a1f5ef3f34a77b6dde9150",
+    "_id": "4",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "PlayStation 5",
-    "description": "The PlayStation 5 takes gaming to the next level with ultra-HD graphics, a powerful 825GB SSD, and ray tracing technology for realistic visuals. Whether you're into high-action games or immersive storytelling, the PS5 delivers fast loading times, seamless gameplay, and stunning visuals. It's a must-have for any serious gamer looking for the ultimate gaming experience.",
+    "name": "Parkside Performance Angle Grinder 20V",
+    "description": "Professional-grade angle grinder with powerful motor and safety features. Perfect for metal cutting, grinding, and polishing applications.",
+    "price": 899.99,
+    "offerPrice": 799.99,
+    "image": [
+      "/assets/Parkside_Performance_angle_grinder.png"
+    ],
+    "category": "Power Tools",
+    "date": 1738667366224,
+    "__v": 0
+  },
+  
+  {
+    "_id": "5",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Parkside Performance Cordless Circular Saw 40V",
+    "description": "Professional welding machine with advanced features for precise welding. Includes safety accessories and comprehensive warranty.",
     "price": 599.99,
     "offerPrice": 499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/dd3l13vfoartrgbvkkh5.webp"
+      "/assets/Parkside_Circular.png"
     ],
-    "category": "Accessories",
+    "category": "Welding Equipment",
     "date": 1738667503075,
     "__v": 0
   },
   {
-    "_id": "67a1f70c3f34a77b6dde9156",
+    "_id": "6",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Canon EOS R5",
-    "description": "The Canon EOS R5 is a game-changing mirrorless camera with a 45MP full-frame sensor, offering ultra-high resolution and the ability to shoot 8K video. Whether you're capturing professional-quality stills or cinematic video footage, this camera delivers exceptional clarity, speed, and color accuracy. With advanced autofocus and in-body stabilization, the R5 is ideal for photographers and videographers alike.",
+    "name": "Parkside Compound Sliding Mitre Saw ",
+    "description": "High-capacity air compressor for industrial applications. Features automatic shut-off and pressure regulation for optimal performance.",
     "price": 4199.99,
     "offerPrice": 3899.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/r5h370zuujvrw461c6wy.webp"
+      "/assets/Parkside_Compound_Saw.png"
     ],
-    "category": "Camera",
+    "category": "Air Tools",
     "date": 1738667788883,
     "__v": 0
   },
   {
-    "_id": "67a1f7c93f34a77b6dde915a",
+    "_id": "7",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "MacBook Pro 16",
-    "description": "The MacBook Pro 16, powered by Apple's M2 Pro chip, offers outstanding performance with 16GB RAM and a 512GB SSD. Whether you're editing high-resolution video, developing software, or multitasking with ease, this laptop can handle the toughest tasks. It features a stunning Retina display with True Tone technology, making it a top choice for professionals in creative industries or anyone who demands premium performance in a portable form.",
+    "name": "Parkside Table Saw",
+    "description": "Professional table saw with precision cutting features and safety guards. Perfect for woodworking and construction projects.",
     "price": 2799.99,
     "offerPrice": 2499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/rzri7kytphxalrm9rubd.webp"
+      "/assets/heeavy_duty_table_saw.png"
     ],
-    "category": "Laptop",
+    "category": "Woodworking Tools",
     "date": 1738667977644,
     "__v": 0
   },
   {
-    "_id": "67a1f8363f34a77b6dde915c",
+    "_id": "8",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Sony WF-1000XM5",
-    "description": "Sony WF-1000XM5 true wireless earbuds deliver immersive sound with Hi-Res Audio and advanced noise cancellation technology. Designed for comfort and quality, they provide a stable, snug fit for a secure listening experience. Whether you're working out or traveling, these earbuds will keep you connected with the world around you while enjoying rich, clear sound.",
+    "name": "Parkside Inverter Flux Cored Wire Welder",
+    "description": "Cut-resistant safety gloves with enhanced grip and durability. Ideal for heavy-duty industrial applications.",
     "price": 349.99,
     "offerPrice": 299.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/e3zjaupyumdkladmytke.webp"
+      "/assets/Flux_Welder.png"
     ],
-    "category": "Earphone",
+    "category": "Safety Equipment",
     "date": 1738668086331,
     "__v": 0
   },
   {
-    "_id": "67a1f85e3f34a77b6dde915e",
+    "_id": "9",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "Samsung Projector 4k",
-    "description": "The Samsung 4K Projector offers an immersive cinematic experience with ultra-high-definition visuals and realistic color accuracy. Equipped with a built-in speaker, it delivers rich sound quality to complement its stunning 4K resolution. Perfect for movie nights, gaming, or presentations, this projector is the ultimate choice for creating an at-home theater experience or professional setting.",
+    "name": "Parkside Cordless Stapler 20V",
+    "description": "Industrial-grade generator with high power output and fuel efficiency. Perfect for construction sites and emergency backup power.",
     "price": 1699.99,
     "offerPrice": 1499.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/qqdcly8a8vkyciy9g0bw.webp"
+      "/assets/Stapler_20v.png"
     ],
-    "category": "Accessories",
+    "category": "Power Equipment",
     "date": 1738668126660,
     "__v": 0
   },
   {
-    "_id": "67a1fa4b3f34a77b6dde9166",
+    "_id": "10",
     "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
-    "name": "ASUS ROG Zephyrus G16",
-    "description": "The ASUS ROG Zephyrus G16 gaming laptop is powered by the Intel Core i9 processor and features an RTX 4070 GPU, delivering top-tier gaming and performance. With 16GB of RAM and a 1TB SSD, this laptop is designed for gamers who demand extreme power, speed, and storage. Equipped with a stunning 16-inch display, it's built to handle the most demanding titles and applications with ease.",
+    "name": "Parkside Electric Stapler",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
     "price": 2199.99,
     "offerPrice": 1999.99,
     "image": [
-      "https://raw.githubusercontent.com/avinashdm/gs-images/main/quickcart/wig1urqgnkeyp4t2rtso.webp"
+      "/assets/Stapler_20v_2.png"
     ],
-    "category": "Laptop",
+    "category": "Cleaning Equipment",
     "date": 1738668619198,
     "__v": 0
-  }
+  
+  },
+  {
+    "_id": "11",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Parkside Electric Stapler",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
+    "price": 2199.99,
+    "offerPrice": 1999.99,
+    "image": [
+      "/assets/Stapler_20v_2.png"
+    ],
+    "category": "Cleaning Equipment",
+    "date": 1738668619198,
+    "__v": 0
+  },
+  {
+    "_id": "12",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Parkside Shop Fan 20V",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
+    "price": 2199.99,
+    "offerPrice": 1999.99,
+    "image": [
+      "/assets/Shop_fan.png"
+    ],
+    "category": "Cleaning Equipment",
+    "date": 1738668619198,
+    "__v": 0
+  },
+   {
+    "_id": "13",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "ParksidePerformance Cordless Chainsaw 40V",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
+    "price": 2199.99,
+    "offerPrice": 1999.99,
+    "image": [
+      "/assets/Chainsaw.png"
+    ],
+    "category": "Cleaning Equipment",
+    "date": 1738668619198,
+    "__v": 0
+  },
+  {
+    "_id": "14",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Parkside Performance Cordless Multi-functional router 20V",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
+    "price": 2199.99,
+    "offerPrice": 1999.99,
+    "image": [
+      "/assets/Router.png"
+    ],
+    "category": "Cleaning Equipment",
+    "date": 1738668619198,
+    "__v": 0
+  },
+  {
+    "_id": "15",
+    "userId": "user_2sZFHS1UIIysJyDVzCpQhUhTIhw",
+    "name": "Parkside Performance Cordless Multi-functional router 20V",
+    "description": "High-pressure washer for industrial cleaning applications. Features adjustable pressure settings and multiple nozzle options.",
+    "price": 2199.99,
+    "offerPrice": 1999.99,
+    "image": [
+      "/assets/Router.png"
+    ],
+    "category": "Cleaning Equipment",
+    "date": 1738668619198,
+    "__v": 0
+  },
 ]
 
 export const userDummyData = {

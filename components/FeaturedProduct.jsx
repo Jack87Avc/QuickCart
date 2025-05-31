@@ -6,20 +6,20 @@ const products = [
   {
     id: 1,
     image: assets.girl_with_headphone_image,
-    title: "Unparalleled Sound",
-    description: "Experience crystal-clear audio with premium headphones.",
+    title: "Professional Power Tools",
+    description: "High-performance power tools for demanding industrial applications.",
   },
   {
     id: 2,
     image: assets.girl_with_earphone_image,
-    title: "Stay Connected",
-    description: "Compact and stylish earphones for every occasion.",
+    title: "Safety Equipment",
+    description: "Essential safety gear and protective equipment for industrial workers.",
   },
   {
     id: 3,
     image: assets.boy_with_laptop_image,
-    title: "Power in Every Pixel",
-    description: "Shop the latest laptops for work, gaming, and more.",
+    title: "Heavy Machinery",
+    description: "Industrial-grade machinery and equipment for construction and manufacturing.",
   },
 ];
 
@@ -27,7 +27,7 @@ const FeaturedProduct = () => {
   return (
     <div className="mt-14">
       <div className="flex flex-col items-center">
-        <p className="text-3xl font-medium">Featured Products</p>
+        <p className="text-3xl font-medium">Featured Equipment</p>
         <div className="w-28 h-0.5 bg-orange-600 mt-2"></div>
       </div>
 
